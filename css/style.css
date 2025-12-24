@@ -1,10 +1,8 @@
 #divContainer {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .divs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex: 1;
 }
